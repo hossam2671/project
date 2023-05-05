@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.bg-body-tertiary{
+    background-color: #1C1E53 !important;
+}
+.nav-link{
+    color: #BBBBCB;
+}
+.nav-link.active{
+    color: white !important;
+}
+.navbar-expand-lg{
+    margin-right: 1.875rem;
+}
+.contact{
+    width: 11.5625rem;
+    border-radius: 2.5625rem;
+    height: 3.75rem;
+    line-height: 60px;
+    background-color: transparent;
+    border: .125rem solid #F4F6FC33;
+}
+header{
+    padding-top: 8.875rem;
+    padding-bottom: 6.75rem;
+    background-color: #1C1E53;
+}
+.header__text{
+    margin-bottom: 1.25rem;
+}
+.header__text h1{
+    font-size: 3.375rem;
+    margin-bottom: 1.5rem;
+    line-height: 74px;
+}
+.header__text p{
+    opacity: 0.7;
+}
+.header__links a:first-of-type{
+    width: 14.375rem;
+    height: 4rem;
+    display: inline-block;
+    line-height: 64px;
+    background-color: #FCD980;
+    color: #1B1C2B;
+    border-radius: 2.5625rem;
+}
+.header__links a:last-of-type{
+    margin-left: 2.5rem;
+}
+.header__links a:last-of-type i{
+    margin-left: 1.125rem;
+}
+.work{
+    padding: 8rem 0 5.5rem;
+    background-color: #F4F6FC;
+}
+.work__text h2{
+    font-size: 3rem;
+    color: #282938;
+}
+.work__text p{
+    color: #282938;
+    opacity: 0.7;
+    padding-right: 3.125rem;
+    line-height: 1.75rem;
+}
+.work__text a{
+    font-size: 1.125rem;
+    color: #2405F2;
+}
+.work__item{
+    margin-bottom: 2.5rem;
+}
+.work__item h5{
+    color: #282938;
+}
+.work__item p{
+    color: #282938;
+    line-height: 28px;
+    opacity: 0.7;
+}
+.projects{
+    padding: 8rem 0;
+}
+.project__header{
+    margin-bottom: 4rem;
+}
+.project__header h2{
+    font-size: 3rem;
+    color: #282938;
+}
+.project__header a{
+    color: #282938;
+}
+.project__main-project{
+    background-image: url(../images/Card.png);
+    position: relative;
+}
+.project__main-project::after{
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+.project__main-project h3{
+    margin-top: 19.5rem;
+    z-index: 50;
+    position: relative;
+    padding-right: 23.125rem;
+}
+.project__main-project p{
+    opacity: 0.8;
+    margin-bottom: 2.5rem;
+    position: relative;
+    z-index: 50;
+    padding-right: 23.75rem;
+}
+.project__main-project a{
+    color: #FCD980;
+    margin-bottom: 4.75rem;
+    position: relative;
+    z-index: 50;
+    display: inline-block;
+}
+.project__other-projects{
+    padding-left: 2rem;
+}
+.project__other-projects article:first-of-type{
+    background-image: url(../images/Rectangle\ 1313.png);
+    position: relative;
+    margin-bottom: 2rem;
+}
+.project__other-projects article:first-of-type::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+.project__other-projects article h3{
+    padding-top: 8.0625rem;
+    margin-bottom: .625rem;
+    position: relative;
+    z-index: 50;
+    padding-left: 3.5rem;
+}
+.project__other-projects article a{
+    position: relative;
+    z-index: 50;
+    margin-bottom: 2.8125rem;
+    padding-left: 3.5rem;
+    display: inline-block;
+    color: #FCD980;
+}
+.project__other-projects article:last-of-type{
+    background-image: url(../images/Card\ \(1\).png);
+    height: 48%;
+}
+.features{
+    background-color: #F4F6FC;
+    padding: 8rem 0;
+}
+.features h6{
+    text-align: center;
+    color: #282938;
+    margin-bottom: .75rem;
+}
+.features h2{
+    text-align: center;
+    font-size: 3rem;
+    color: #282938;
+    padding: 0 14.375rem;
+}
+.feat{
+    padding-bottom: 2rem;
+    background-color: white;
+    width: 32.5%;
+}
+.feat img{
+    margin-bottom: 1.4375rem;
+}
+.feat h5{
+    color: #282938;
+    margin-bottom: .75rem;
+}
+.feat p{
+    color: #282938;
+    opacity: 0.7;
+}
+.comments{
+    background-color: #f4f6fc7a;
+    padding: 8rem 0;
+}
+.comments__head h3{
+    font-size: 2.375rem;
+    color: #282938;
+}
+.comments__head p{
+    color: #282938;
+    opacity: 0.7;
+}
+.comments__comment h4{
+    color: #282938;
+}
+.comments__text h5{
+    font-size: 1.125rem;
+    color: #282938;
+}
+.comments__text h6{
+    font-size: .75rem;
+    color: #282938;
+}
+.comments__arrow{
+    text-align: right;
+}
+.questions{
+    padding: calc(128px - 64px) 0;
+}
+.questions__head h3{
+    font-size: 2.375rem;
+    color: #282938;
+    padding-right: 1.875rem;
+    line-height: 3.5rem;
+}
+.questions__head a{
+    font-size: 1.125rem;
+    color: #2405F2;
+}
+.question{
+    margin-bottom: 4rem;
+    position: relative;
+}
+.question::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2rem;
+    width: 100%;
+    height: 2px;
+    background-color: #ECECF1;
+}
+.question span{
+    color: #2405F2;
+}
+.question h4{
+    color: #282938;
+}
+.question h5{
+    font-size: 1.125rem;
+    color: #282938;
+    opacity: 0.8;
+}
+.question img{
+    width: 2.2rem;
+    height: 2.2rem;
+}
+.send__text{
+    background-image: url(../images/woman-writing-on-paper-3228878.png);
+    position: relative;
+}
+.send__text::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(28, 30, 83, 0.5);
+    content: "";
+}
+.send__text h2{
+    position: relative;
+    padding-top: 6rem;
+    font-size: 3.375rem;
+    color: white;
+    z-index: 50;
+    padding-left: 4.375rem;
+}
+.send__text p{
+    position: relative;
+    color: white;
+    padding-bottom: 16.3125rem;
+    z-index: 50;
+    padding-left: 4.375rem;
+}
+.send__form{
+    background-color: #1C1E53;
+}
+.send__form h4{
+    padding-top: 6rem;
+    color: white;
+}
+.send__form p{
+    color: white;
+    padding-right: 4rem;
+    margin-bottom: 2.5rem;
+}
+.send__form input{
+    width: calc(100% - 112px);
+    margin-right: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: .0938rem solid rgba(255, 255, 255, 0.05);
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    color: #F4F6FC;
+    outline: none;
+}
+.send__form a:first-of-type{
+    width: calc(100% - 112px);
+    height: 4rem;
+    background-color: #FCD980;
+    display: inline-block;
+    text-align: center;
+    border-radius: 2.5625rem;
+    line-height: 4rem;
+    color: #1B1C2B;
+    font-size: 1.125rem;
+    margin-top: 1.4375rem;
+    margin-bottom: 1.75rem;
+}
+.send__form a:last-of-type{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.125rem;
+    color: white;
+}
+.blog{
+    padding: 8rem 0;
+}
+.blog h2{
+    font-size: 3rem;
+    color: #282938;
+    margin-bottom: 4rem;
+}
+.blog__blog img{
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+.blog__blog h6{
+    color: #282938;
+    opacity: 0.7;
+}
+.blog__blog h3{
+    font-size: 1.3rem;
+    color: #282938;
+}
+.blog__blog p{
+    color: #282938;
+    opacity: 0.7;
+    margin-bottom: 2rem;
+}
+.blog__blog a{
+    color: #282938;
+}
+footer{
+    background-color: #1C1E53;
+    padding-top: 6rem;
+}
+.footer__logo p{
+    margin-top: 1.6875rem;
+    color: white;
+    opacity: 0.8;
+    margin-bottom: 5.375rem;
+}
+.footer__footer{
+    background-color: #FCD980;
+}
+.footer__left h5{
+    color: #282938;
+    padding-left: 2rem;
+}
+.footer__left h6{
+    color: #282938;
+    padding-left: 2rem;
+    opacity: 0.8;
+}
+.footer__text h2{
+    margin-left: 6rem;
+    font-size: 3rem;
+    color: white;
+}
+.footer__text p{
+    margin-left: 6rem;
+    margin-bottom: 1.75rem;
+    color: #F4F6FC;
+    opacity: 0.8;
+    margin-right: 2rem;
+    line-height: 1.75rem;
+}
+.footer__text i:first-of-type{
+    margin-left: 6rem;
+}
+.footer__text i{
+    color: white;
+    margin-left: 2rem;
+}
+.copyright{
+    padding: 2rem 0 1rem;
+}
+@media(max-width:768px){
+    .features h2{
+        padding: 0;
+    }
+    .feat{
+        width: 48%;
+    }
+}
